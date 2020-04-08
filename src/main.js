@@ -1,7 +1,7 @@
 const div = dom.find("#test>.red")[0];
 console.log(div);
 
-dom.style(div, "color", "green");
+dom.style(div, "color", "white");
 
 const divList = dom.find(".red");
 dom.each(divList, (n) => console.log(n));
